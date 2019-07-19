@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015",
+    "typeRoots": [ "./types", "./node_modules/@types"]
+  },
+  "exclude": ["node_modules", "typings"],
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
